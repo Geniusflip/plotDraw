@@ -364,7 +364,7 @@ def genPerlinNoise(x, y ):
 if __name__ == "__main__":
     folderPath = "images/"
     fileName = "file2.png"
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Process an image into a vectorised line format.')
     parser.add_argument("--preview", help="preview canny edges before",
                     action="store_true")
     parser.add_argument("--hatch", help="add hatching",
